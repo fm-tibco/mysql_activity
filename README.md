@@ -55,8 +55,8 @@ Input and Output:
 |:------------|:---------------|
 | dataSourceName | The db connection string |  
 | query          | The db query statement |
-| params         | Optional params for named db query |  
-| columnTypes      Optional - can specify the types of the columns |  
+| params         | Optional - Params for named db query |  
+| columnTypes    | Optional - The types of the columns |  
 
 ##  Examples
 
@@ -94,8 +94,8 @@ Input and Output:
 }
 ```
 ### Issues
-If type cannot be determined, value will default to string.  In order to fix this you can
-specify an optional "columnTypes" to specify the type of the column
+If type cannot be determined for a returned column, the value will default to string.  In order to fix this you can
+specify an optional "columnTypes" to specify the type of the column.
 
 ```json
 {
