@@ -1,0 +1,35 @@
+{
+  "name": "MySQL Activity",
+  "type": "flogo:activity",
+  "ref": "github.com/fm-tibco/mysql_activity",
+  "version": "0.0.1",
+  "title": "MySQL Database Activity",
+  "description": "MySQL Database Activity",
+  "homepage": "https://github.com/fm-tibco/mysql_activity",
+  "input":[
+    {
+      "name": "dataSourceName",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "query",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "params",
+      "type": "object"
+    },
+    {
+      "name": "columnTypes",
+      "type": "params"
+    }
+  ],
+  "output": [
+    {
+      "name": "results",
+      "type": "array"
+    }
+  ]
+}
