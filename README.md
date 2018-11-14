@@ -7,6 +7,7 @@ queries are supported.
 
 # Third Party Libraries Used
 https://github.com/go-sql-driver/mysql
+
 https://github.com/jmoiron/sqlx
 
 ## Installation
